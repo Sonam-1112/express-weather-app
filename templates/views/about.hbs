@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>headerlinks}}
+</head>
+<body>
+  {{>navbar}}                                                                             <!--Syntax to use partials-->
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- Left Side div -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="Images/about.png" alt="" class="img-fluid" title="Thapa Technical">
+                        </figure>
+                    </div>
+                    <!-- Right Side div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to My Instant Weather Info App....</p>
+                        <h2>I Am A <span class="text_color"> 2<sup>nd</sup> Year Student Of XIE</span>, Basic Learner Having A Curiosity To Learn New Things... </h2>
+                        <a href="http://14.142.126.125/moodle/" target="_blank"><button>About Me</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    {{>scriptlinks}}
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>headerlinks}}
+</head>
+<body>
+  {{>navbar}}                                                                             <!--Syntax to use partials-->
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- Left Side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="Images/errorimg.jpg" alt="" class="img-fluid" title="Thapa Technical">
+                        </figure>
+                        <p>Welcome to My Instant Weather Info App....</p>
+                        <h2>OOPs !!! Page Not Found...</h2>
+                        <a href="/index"><button>Go back</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    {{>scriptlinks}}
+</body>
+</html>
